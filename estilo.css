@@ -1,0 +1,160 @@
+header{
+  width: 100%;
+  background-color:  #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 10px #02010a;
+}
+h1{
+  font-family: Indie Flower;
+  color: white;
+  margin-left: 4%;
+  width: 60%;
+
+}
+#menu a{
+  font-family: Indie Flower;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  background-color: black;
+  border-radius: 20px;
+  transition: background-color 0.5s;
+}
+#menu{
+  width: 40%;
+  flex-direction: row;
+  margin-top: 2%;
+}
+#menu a:hover{
+  background-color: red;
+}
+#contenedor{
+  background-color: #82c3a6;
+}
+#principal img{
+  margin: 2em;
+  height: 25em;
+  width: 60%;
+  box-shadow: 2px 5px black;
+  flex-direction: column;
+  margin-left: 20%;
+}
+#b{
+  background-color:  #d5c75f;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+#imagen2{
+  width:50%;
+  margin-top: 2em;
+  margin-left: 15%;
+  transform: rotate();
+  transition: transform 1s;
+}
+#imagen2:hover{
+  transform: rotate(10deg);
+}
+#imagen3{
+  width: 50%;
+}
+footer{
+  width: 100%;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: row;
+}
+#contacto{
+  font-family: Indie Flower;
+  margin-left: 5%;
+  width: 25%;
+}
+#terminos{
+  font-family: Indie Flower;
+  width: 25%;
+}
+#redesSociales{
+  font-family: Indie Flower;
+  width: 25%;
+}
+#derechos{
+  font-family: Indie Flower;
+  width: 25%;
+}
+#redesSociales img{
+  height: 1em;
+}
+@media (max-width:480px) {
+  header{
+    flex-direction: column;
+  }
+  h1{
+    margin-left: 20%;
+  }
+  #menu{
+    flex-direction: row;
+    width: 100%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+  #b{
+    flex-direction: column;
+  }
+  #b img{
+    margin-left: 20%;
+  }
+  footer{
+    flex-direction: column;
+  }
+  #contacto{
+    margin-left: 20%;
+  }
+  #terminos{
+    margin-left: 20%;
+  }
+  #derechos{
+    margin-left: 20%;
+  }
+  #redesSociales{
+    margin-left: 20%;
+  }
+}
+@media (max-width:680px) {
+  header{
+    flex-direction: column;
+  }
+  h1{
+    margin-left: 20%;
+  }
+  #menu{
+    flex-direction: row;
+    width: 100%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+  #b{
+    flex-direction: column;
+  }
+  #b img{
+    margin-left: 20%;
+  }
+  footer{
+    flex-direction: column;
+  }
+  #contacto{
+    margin-left: 20%;
+  }
+  #terminos{
+    margin-left: 20%;
+  }
+  #derechos{
+    margin-left: 20%;
+  }
+  #redesSociales{
+    margin-left: 20%;
+  }
+}
